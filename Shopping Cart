@@ -1,17 +1,15 @@
-Use Case Title: Add Items to Shopping Cart
+Use Case: Add Items to Shopping Cart
 
-Actors:
+Actors: Customer
 
-Customer
 Description:
 This use case describes the process of a customer adding items to their online shopping cart while browsing an e-commerce website.
 
 Preconditions:
-
 The customer has logged in to their user account.
 The customer is viewing product listings on the e-commerce website.
-Main Success Scenario:
 
+Main Success Scenario:
 The customer navigates to the product listing page.
 The customer browses the available products and selects a product they wish to purchase.
 The system displays the product details, including its name, price, and an "Add to Cart" button.
@@ -19,16 +17,16 @@ The customer clicks the "Add to Cart" button for the selected product.
 The system adds the selected product to the customer's shopping cart.
 The system updates the shopping cart, displaying the added product and the total cost.
 The customer continues shopping or proceeds to checkout.
-Alternative Flows:
 
+Alternative Flows:
 Step 5a: If the selected product is out of stock, the system displays an "Out of Stock" message, and the product is not added to the cart. The customer can choose a different product or continue shopping.
 Step 6a: If the customer decides to continue shopping, they repeat the process from step 2 for additional products.
 Step 6b: If the customer decides to proceed to checkout, they click the "Checkout" button, initiating the checkout process.
-Postconditions:
 
+Postconditions:
 The selected product(s) are added to the customer's shopping cart.
 The shopping cart displays the added product(s) and the total cost.
 The customer can continue shopping or proceed to checkout.
-Exceptional Flow:
 
+Exceptions:
 If the customer encounters technical issues during the process, such as a page error or a failure to add an item to the cart, the system should display an error message and provide options for the customer to retry or seek assistance.
